@@ -95,3 +95,51 @@ To learn more about React Native, take a look at the following resources:
 - [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+
+
+
+## Steps for Ubuntu Server Installer
+
+**Properties**
+- CPU: 2 cores
+- RAM: 4096 MB
+- Storage: 25 GB
+- OS: Ubuntu 24.04 LTS
+- Network: Adapter 1 (Bridged Adapter)
+
+# Start configuration
+-Try or Install Ubuntu Server
+
+-Select your language: Español
+
+-Select "Continuar sin actualizar "
+
+-Select "Spanish (Latin American)" as your keyboard layout and Variant "(Latin American)", then choose "Done"
+
+-Choose the base for the installation (x) Ubuntu Server
+-Select "Done"
+
+-Proxy empty
+
+-Ubuntu archive mirror configuration: use the default mirror
+
+-Configure a guided storage layout, or create a custom one: 
+-[X] Use an entire disk
+-[X] Set up this disk as an LVM group, then choose "Done"
+
+-Porfile configuration
+-Name: ranma1/2
+server name: ruleta-server
+user name: ranma
+password: [PASSWORD]
+confirm password: [PASSWORD]
+
+-SSH Configuration
+-[X] Install OpenSSH server
+-[X] Allow password authentication via SSH
+
+-Featured server snap (X) None
+
+# Commands
+
+
